@@ -1,0 +1,272 @@
+
+
+---------->
+
+Write a program to check addition of two number in java.
+
+1--> will create a function/Method
+
+
+1.a---> can we pass number of arguments/Parameters?
+
+1.b---->is any return type required?
+
+
+Write a program to check odd and even number in java
+
+--> create a function
+
+
+--> can we pass parameter -->int number
+
+
+-----Inheritance:
+
+
+class A--> 5 methods 2 variables
+
+
+Class B extends A
+{
+
+
+}
+
+
+===> Polymorphism:
+One name many forms
+Method overloading---> Compile time polymorphism
+==>
+addition(int a,int b)-->addition of two number
+addition(int a,int b,int c)--> addition of 3 number
+
+Two way we have to acheive method overloading
+1) by changing the number of arguments
+2) by changing the data type
+
+
+
+
+
+Method overriding---> Run time polymprohism
+
+Inheritance ==>
+
+Class A--> display method -->
+Class B extends A--> display
+
+
+
+ 
+
+Polymorphism:
+
+Compile time Polymorphism: > Method Overloading
+
+--> Single class
+Overloading we can achieve only in single class or same class
+We can achieve overloading by 2 ways 1(by changing the number of arugments)
+2(By changing the Datatype)
+
+-->Number of arguments or Parameter
+--Data  type
+
+
+Run Time Polymorphism: > Method Overriding:
+
+We need multiple classes to achieve this
+We cannot change the number of arguments and Datatype that means
+method is exactly replica of Parentclass method.
+
+ 
+
+
+==> Data Hiding:
+==>
+
+Abstract class==> ROICalculator();
+
+==> 10 Banks
+2%
+.50%
+xyz--> 2.1
+PQR--> 2.3
+ABC--> 2.0
+
+CEO==> daily meeting: abstract method setdownloadpath()
+
+Software team --> Team  lead---> 11 AM
+EE1
+...
+EE10
+11
+
+QA team
+
+Business Team
+
+Marketing Team
+
+
+
+
+this --> Keyword
+
+This keyword is used to invoke current class constructor:
+either default or parameterized.
+this();---> default constructor calling
+this(1,2)--> Parameterized constructor calling 
+
+
+this keyword is used to invoke current class instance variable.
+
+This keyword will use in current class and only one class required for this.
+
+
+super ---> keyword
+Super keyword is used between two classed and must be 
+implement inheritance.
+
+
+
+Final Keyword:
+
+
+Variable
+Method
+Class
+
+
+
+Encapsulation:
+
+It is process of data binding into single unit is called  Encapsulation.
+
+We can achieve Encapsulation by getter and setter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IT Team
+
+HR Team
+
+
+
+XPATH Syntax:
+
+
+//tagname[@attributename='attribute value']
+
+
+********************************************>
+
+contains
+Syntax:
+
+//tagname[contains(text(),'partial or full text')]
+
+
+
+
+
+
+starts-with
+
+following-sibling
+
+
+
+
+--->
+
+
+click  -->done
+data enter --> done
+
+dropdown
+
+new tab  --> done
+
+radio button
+
+checkbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------XPATH***********************************
+
+
+
+
+
+<tagname attributename="attributevalue "  attributename="attributevalue "/>
+
+Syntax:
+
+//tagname[@attributename='attributevalue']
+
+
+TestNG:
+
+@beforeSuite
+@AfterSuite
+
+
+@beforeTest
+@AfterTest
+
+
+@beforeMethod
+@AfterMethod
+
+@beforeclass
+@AfterClass
+
+@Test
+
+
+
+==>
+
+@beforeSuite
+@BeforeTest
+@beforeclass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterTest
+@AfterClass
+@AfterSuite
+
+
+
+
+
+
+
+
+
+
+
+
